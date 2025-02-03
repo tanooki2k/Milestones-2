@@ -1,9 +1,0 @@
-name,author,read
-Harry Potter and the Philosopher's Stone,J.K. Rowling,0
-Método Enigma,Rey Enigma,1
-Fluent Python,Ramalho,0
-Precalculus with Calculus Previews,Zill Dewar,0
-End Game,David Baldacci,0
-Calculus,James Stewart,0
-Doing Math with Python,Amit Saha,1
-Deep Learning for Coders with fastai and PyTorch,Howard & Gugger,0

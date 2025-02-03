@@ -1,12 +1,13 @@
 """
-Concerned with storing and retrieving books from a csv file.
+Handles the storage and retrieval of books using a CSV file.
+Note: CSV can only store strings.
 Format of the csv file:
 
 name,author,read  (comma separated)
 """
 import csv
 
-books_file = "/home/javier/PycharmProjects/milestones/data.txt"
+books_file = "/home/javier/PycharmProjects/milestones/data.csv"
 fieldnames = ["name", "author", "read"]
 
 

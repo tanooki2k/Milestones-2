@@ -1,8 +1,9 @@
-from utils import database
+# from utils.csv_database import *
+from utils.json_database import *
 
 
 def menu():
-    database.create_book_table()
+    create_book_table()
     user_input = input(USER_CHOICE)
     while user_input != 'q':
         print()
@@ -21,27 +22,27 @@ def prompt_add_book():
     name = input("Enter the book name: ")
     author = input("Enter the book author: ")
 
-    database.add_book(name, author)
+    add_book(name, author)
 
 
 def list_books():
-    books = database.get_all_books()
+    books = get_all_books()
     print("Books:")
     for book in books:
-        read = "YES" if int(book['read']) else "NO"
+        read = "YES" if book['read'] == "1" or book['read'] is True else "NO"
         print(f"{book['name']} by {book['author']}, read: {read}")
 
 
 def prompt_read_book():
     name = input("Enter the book name: ")
 
-    database.mark_book_as_read(name)
+    mark_book_as_read(name)
 
 
 def prompt_delete_book():
     name = input("Enter the book name: ")
 
-    database.delete_book(name)
+    delete_book(name)
 
 
 choices = [

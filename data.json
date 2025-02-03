@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Dross Escape",
+        "author": "Dross",
+        "read": true
+    },
+    {
+        "name": "Algebra de Baldor",
+        "author": "Aurelio Baldor",
+        "read": false
+    },
+    {
+        "name": "1984",
+        "author": "George Orwell",
+        "read": true
+    },
+    {
+        "name": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "read": false
+    },
+    {
+        "name": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "read": true
+    },
+    {
+        "name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "read": false
+    },
+    {
+        "name": "Moby Dick",
+        "author": "Herman Melville",
+        "read": true
+    },
+    {
+        "name": "War and Peace",
+        "author": "Leo Tolstoy",
+        "read": false
+    },
+    {
+        "name": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "read": true
+    },
+    {
+        "name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "read": false
+    },
+    {
+        "name": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "read": true
+    },
+    {
+        "name": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "read": false
+    },
+    {
+        "name": "The Odyssey",
+        "author": "Homer",
+        "read": true
+    },
+    {
+        "name": "Brave New World",
+        "author": "Aldous Huxley",
+        "read": false
+    },
+    {
+        "name": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "read": true
+    },
+    {
+        "name": "Frankenstein",
+        "author": "Mary Shelley",
+        "read": false
+    },
+    {
+        "name": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "read": true
+    },
+    {
+        "name": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "read": false
+    },
+    {
+        "name": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "read": true
+    },
+    {
+        "name": "The Iliad",
+        "author": "Homer",
+        "read": false
+    },
+    {
+        "name": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "read": true
+    },
+    {
+        "name": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "read": false
+    },
+    {
+        "name": "Dracula",
+        "author": "Bram Stoker",
+        "read": true
+    },
+    {
+        "name": "A Tale of Two Cities",
+        "author": "Charles Dickens",
+        "read": false
+    },
+    {
+        "name": "Les Misérables",
+        "author": "Victor Hugo",
+        "read": true
+    },
+    {
+        "name": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "read": false
+    },
+    {
+        "name": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "read": true
+    }
+]
