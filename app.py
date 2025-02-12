@@ -1,5 +1,6 @@
 # from utils.csv_database import *
-from utils.json_database import *
+# from utils.json_database import *
+from utils.database import *
 
 
 def menu():
@@ -27,9 +28,9 @@ def prompt_add_book():
 
 def list_books():
     books = get_all_books()
-    print("Books:")
+    print("Books:" if books else "No books found.")
     for book in books:
-        read = "YES" if book['read'] == "1" or book['read'] is True else "NO"
+        read = "YES" if str(book['read']) == "1" or book['read'] is True else "NO"
         print(f"{book['name']} by {book['author']}, read: {read}")
 
 

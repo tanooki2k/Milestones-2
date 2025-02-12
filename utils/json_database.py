@@ -19,7 +19,6 @@ Each book is represented as a dictionary with the following fields:
 import json
 
 books_file = "/home/javier/PycharmProjects/milestones/data.json"
-fieldnames = ["name", "author", "read"]
 
 
 def add_book(name, author):
